@@ -7,6 +7,7 @@ public class Main {
     public static void main(String[] args) {
 
         Opciones resultado = new Opciones();
+        ConversorTemperaturas.Opciones temperatura = new ConversorTemperaturas.Opciones();
         boolean isActive = true;
 
         while(isActive){
@@ -16,8 +17,15 @@ public class Main {
                     JOptionPane.INFORMATION_MESSAGE, null,
                     conversor, conversor[0]).toString();
 
-            String monto = JOptionPane.showInputDialog("Por favor ingrese el monto de dinero a convertir");
-            resultado.convertir(Double.parseDouble(monto));
+            switch (eleccion){
+                case "Moneda":
+                    String monto = JOptionPane.showInputDialog("Por favor ingrese el monto de dinero a convertir");
+                    resultado.convertir(Double.parseDouble(monto));
+                    break;
+                case "Temperatura":
+                    String temp = JOptionPane.showInputDialog("Por favor ingrese el valor de temperatura a convertir");
+                    temperatura.convertir(Double.parseDouble(temp));
+            }
 
             int continuar = JOptionPane.showConfirmDialog(null,
                     "Desea continuar", "Elija una opcion", JOptionPane.YES_NO_OPTION);
