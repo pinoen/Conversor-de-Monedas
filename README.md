@@ -1,4 +1,6 @@
 <h1 align="center"> Conversor de Monedas </h1>
+![money-g0d112d15a_1280](https://user-images.githubusercontent.com/91059020/193427485-52ff429b-aac5-4e79-a9cb-e9776c77ab9b.jpg)
+
 
 # ¡Challenge Java!
 
@@ -24,6 +26,10 @@ Adicionalmente cuenta con funcion de convertir valores de temperaturas:
 - Celsius a Kelvin, 
 - Fahrenheit a Celsius, 
 - Kelvin a Celsius
+
+# Gif
+![conversorDeMonedas](https://user-images.githubusercontent.com/91059020/193427461-d8294c1e-b3f9-4529-9611-0cb1ac6faa24.gif)
+
 
 # Software utilizado: 
 IntelliJ IDEA 2022.2.2 (Community Edition)
