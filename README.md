@@ -1,6 +1,4 @@
 <h1 align="center"> Conversor de Monedas </h1>
-![money-g0d112d15a_1280](https://user-images.githubusercontent.com/91059020/193427485-52ff429b-aac5-4e79-a9cb-e9776c77ab9b.jpg)
-
 
 # ¡Challenge Java!
 
